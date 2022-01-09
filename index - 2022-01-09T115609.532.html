@@ -1,0 +1,298 @@
+<html>
+    <head>
+        <title>docoment</title>
+       
+        
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+             .card{
+                width:300px;
+                background:gray;
+                box-shadow:5px 5px;8px black
+                border:1px solid yellow;
+                border-radius:20px;
+                text-align:center;
+            }
+            .card h1{
+                text-align:center;
+                transition:.4s;
+                
+                border-radius:15px;
+            }
+            .card h1:hover{
+                box-shadow:10px 10px 16px black;
+            }
+            
+            .card-title{
+                font-size:2rem;
+                text-align:center;
+            }
+            .card-title:hover{
+                box-shadow:5px 5px 5px blue;
+            }
+            .card-des p{
+                background:blue;
+                text-align:justify;
+                transition:.6s;
+            }
+            .card-des p:hover{
+                box-shadow:10px 10px 16px black;
+                background:black;
+                color:white;
+            }
+            .left{
+                float:left;
+                width:31.3%;
+                box-sizing:border-box;
+                margin-left:1%;
+                margin-right:1%;
+                
+                
+            }
+            .clear::after{
+                content:"";
+                clear:both;
+                display:block
+            }
+            
+            .menu{
+                background:blue;
+                border-radius:15px;
+            }
+            .menu:hover{
+                background-color:navy;
+            }
+            .menu ul{
+                text-align:center;
+            }
+            .menu ul li{
+                display:inline-block;
+                margin-right:-5px;
+            }
+            .menu ul li a{
+                display:inline-block;
+                text-decoration:none;
+                padding:0 30px;
+                font-size:20px;
+                line-height:70px;
+                color:white;
+                border-left:1px solid white;
+                transition:.5s;
+            }
+            .menu ul li:last-child a{
+                border-right:1px solid white;
+            }
+            .menu ul li a:hover{
+                background:blue;
+            }
+            .menu ul li{
+                position:relative;
+            }
+            .menu ul li ul{
+                position:absolute;
+                left:0;
+                top:100%;
+                width:200px;
+                background:blue;
+                border-top:1px solid white;
+                
+                opacity:0;
+                visibility:hidden;
+                transform:scaleY(0);
+                transform-origin:top center;
+                transition:.5s;
+            }
+            .menu ul li:hover ul{
+                opacity:1;
+                visibility:visible;
+                transform:scaleY(1);
+            }
+            .menu ul ul li:last-child a{
+                border:none;
+                
+            }
+            .menu ul ul li a{
+                border:none;
+                border-bottom:1px solid white;
+            }
+            .menu ul li ul li{
+                display:block;
+                margin-right:0;
+            }
+            .menu ul li ul li a{
+                display:block;
+            }
+           
+            .banner{
+                background-image: url(https://thumbs.dreamstime.com/z/man-tourist-using-navigation-app-mobile-phone-map-smartphone-big-city-banner-long-format-152291749.jpg);
+                background-size:cover;
+                background-repeat:no-repeat;
+                padding:200 0;
+                margin-top:12px;
+                border-radius:10px;
+            }
+            .banner-caption h1{
+                text-align:center;
+                background:blue;
+                display:inline-block;
+                border-radius:10px;
+                color:white;
+                margin-left:30%;
+                font-size:3rem;
+            }
+            .banner-caption h2{
+                text-align:center;
+                background:blue;
+                color:white;
+                border-radius:10px;
+                width:150px;
+                margin-left:45%;
+            }
+            
+            .service{
+                margin-top:40px;
+            }
+            .service-item{
+                float:left;
+                width:31.3%;
+                text-align:center;
+                border:1px solid black;
+                border-radius:10px;
+                box-sizing:border-box;
+                margin-left:1%;
+                margin-right:1%;
+            }
+            .service-item span{
+                display:block;
+                height:60px;
+                width:60px;
+                background:blue;
+                color:white;
+                margin:auto;
+                font-size:40px;
+                margin-top:10px;
+                line-height:60px;
+                border-radius:20px 0 20px 0;
+            }
+            
+            .fotter{
+                
+            }
+            .fotter h1{
+                text-align:center;
+                color:white;
+                
+                
+            }
+            
+        </style>
+        
+
+
+
+    </head>
+    <body>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></a></li>
+                <li><a href="#">languaes</a>
+                    <ul>
+                        <li><a href="#">bangla</a></li>
+                        <li><a href="#">english</a></li>
+                        <li><a href="#">french</a></li>
+                        <li><a href="#">spanish</a></li>
+                        <li><a href="#">chinis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">file</a></li>
+            </ul>
+        </div>
+        
+        <div class="containers clear">
+            <div class="card left">
+            <h1>This is card</h1>
+            
+            <div class="card-body">
+                <div class="card-title">
+                    python program
+                </div>
+                <div class="card-des">
+                    <p>This is lorem ipsum into the graat touch fo lift and it was lorem ipsum dolar sit amet grat fouch found and more ever kapil sharma show graat show of sony dance plus is graat show of star plus and dolar lorem ipsum dolar sit amet grat oppotunity</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="card left">
+            <h1>This is card</h1>
+            
+            <div class="card-body">
+                <div class="card-title">
+                    python program
+                </div>
+                <div class="card-des">
+                    <p>This is lorem ipsum into the graat touch fo lift and it was lorem ipsum dolar sit amet grat fouch found and more ever kapil sharma show graat show of sony dance plus is graat show of star plus and dolar lorem ipsum dolar sit amet grat oppotunity</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="card left">
+            <h1>This is card</h1>
+            
+            <div class="card-body">
+                <div class="card-title">
+                    python program
+                </div>
+                <div class="card-des">
+                    <p>This is lorem ipsum into the graat touch fo lift and it was lorem ipsum dolar sit amet grat fouch found and more ever kapil sharma show graat show of sony dance plus is graat show of star plus and dolar lorem ipsum dolar sit amet grat oppotunity</p>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        
+        <div class="banner">
+            <div class="banner-caption">
+            <h2>This is Basic website</h2>
+            <h1>website owner Mr Fahim</h1>
+            </div>
+        </div>
+       <div class="service">
+           <div class="service-item">
+               <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+               <h3>web design</h3>
+               <p>lorem ipsum dolar sit amen graat touching full width and height left right</p>
+           </div>
+       </div>
+       <div class="service">
+           <div class="service-item">
+               <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+               <h3>graphic degign</h3>
+               <p>lorem ipsum dolar sit amen graat touching full width and height left right</p>
+           </div>
+       </div>
+       <div class="service">
+           <div class="service-item">
+               <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+               <h3>digital marketing</h3>
+               <p>lorem ipsum dolar sit amen graat touching full width and height left right</p>
+           </div>
+       </div>
+       
+       <div class="fotter">
+           <h1>All right reserved by Fahim</h1>
+       </div>
+       
+       
+
+           </div>
+       </div>
+       
+       
+        
+        
+        
+    </body>
+</html>
